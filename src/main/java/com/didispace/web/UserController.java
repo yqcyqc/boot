@@ -9,7 +9,7 @@ import java.util.*;
  * Created by zhudonghong123 on 2017/12/12.
  */
 @RestController
-@RequestMapping(value="/users")     // 通过这里配置使下面的映射都在/users下
+@RequestMapping(value="/user")     // 通过这里配置使下面的映射都在/users下
 public class UserController {
 
     // 创建线程安全的Map
