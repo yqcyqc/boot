@@ -11,6 +11,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
  * Created by zhudonghong123 on 2017/12/13.
+ * 配置针对User的RedisTemplate实例
  */
 
 @Configuration

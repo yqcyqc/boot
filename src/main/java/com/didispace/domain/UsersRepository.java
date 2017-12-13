@@ -7,6 +7,7 @@ import org.springframework.data.repository.query.Param;
 
 /**
  * Created by zhudonghong123 on 2017/12/13.
+ * 创建数据访问接口
  */
 public interface UsersRepository extends JpaRepository<Users, Long> {
 

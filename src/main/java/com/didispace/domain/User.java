@@ -2,6 +2,7 @@ package com.didispace.domain;
 
 /**
  * Created by zhudonghong123 on 2017/12/12.
+ * User对象
  */
 public class User {
     private Long id;

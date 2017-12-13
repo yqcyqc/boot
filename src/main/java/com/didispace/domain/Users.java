@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 /**
  * Created by zhudonghong123 on 2017/12/13.
+ * Users对象
  */
 @Entity
 public class Users {

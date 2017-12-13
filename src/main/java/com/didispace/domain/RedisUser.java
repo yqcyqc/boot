@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 /**
  * Created by zhudonghong123 on 2017/12/13.
+ * RedisUser对象
  */
 public class RedisUser implements Serializable {
 

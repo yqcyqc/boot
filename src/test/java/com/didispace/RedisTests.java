@@ -10,6 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 /**
  * Created by zhudonghong123 on 2017/12/13.
+ * Redis测试用例实验效果
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
