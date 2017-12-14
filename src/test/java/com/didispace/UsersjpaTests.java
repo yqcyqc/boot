@@ -40,7 +40,7 @@ public class UsersjpaTests {
     public void test1() throws Exception {
 
         // 测试findAll, 查询所有记录
-        Assert.assertEquals(10, UsersRepository.findAll().size());
+        Assert.assertEquals(11, UsersRepository.findAll().size());
 
 
     }
@@ -84,6 +84,19 @@ public class UsersjpaTests {
         // 测试findAll, 查询所有记录, 验证上面的删除是否成功
         Assert.assertEquals(9, UsersRepository.findAll().size());
 
+    }
+    @Test
+    public void before() {
+        UsersRepository.save(new Users("uuuu", 10));
+    }
+
+    @Test
+    public void test7() throws Exception {
+        Users u1 = UsersRepository.findByName("uuuu");
+        System.out.println("第一次查询：" + u1.getAge());
+
+        Users u2 = UsersRepository.findByName("uuuu");
+        System.out.println("第二次查询：" + u2.getAge());
     }
 
 

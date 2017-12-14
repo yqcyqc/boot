@@ -50,4 +50,5 @@ public class UserCRUDTests {
         Assert.assertEquals(3, userSerivce.getAllUers().intValue());
     }
 
+
 }
